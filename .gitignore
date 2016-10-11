@@ -1,0 +1,10 @@
+.vagrant/*
+shared-files/build-*
+shared-files/katana/
+shared-files/testmaster/__pycache__/
+shared-files/testmaster/buildcurl/
+shared-files/testmaster/http.log
+shared-files/testmaster/master.cfg.sample
+shared-files/testmaster/sessions
+shared-files/testmaster/twistd.log
+shared-files/testmaster/twistd.pid
