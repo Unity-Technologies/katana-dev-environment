@@ -8,3 +8,6 @@ shared-files/testmaster/master.cfg.sample
 shared-files/testmaster/sessions
 shared-files/testmaster/twistd.log
 shared-files/testmaster/twistd.pid
+shared-files/artifacts/buildcurl*
+shared-files/testmaster/events_localhost/
+shared-files/testmaster/gitpoller-curl/
