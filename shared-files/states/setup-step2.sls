@@ -10,4 +10,4 @@ Install git/python/ruby:
 Update PIP:
   cmd:
     - run
-    - name: pip install --upgrade setuptools; pip install --upgrade pip==7.1.0
+    - name: . /home/vagrant/pypysandbox/bin/activate; pip install --upgrade setuptools; pip install --upgrade pip==7.1.0

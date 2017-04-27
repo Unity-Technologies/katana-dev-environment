@@ -21,7 +21,7 @@
 	# Open Autobahn port
     config.vm.network "forwarded_port", guest: 8010, host: 8010
 	# Open Buildslave port
-    config.vm.network "forwarded_port", guest: 9001, host: 9001
+    config.vm.network "forwarded_port", guest: 9901, host: 9901
 	# Open alternative SSH port (eg: for artifact settings)
     config.vm.network "forwarded_port", guest: 22, host: 2233
 

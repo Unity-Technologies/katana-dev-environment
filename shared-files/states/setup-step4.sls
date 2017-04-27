@@ -6,6 +6,8 @@ Syncing Katana:
   git.latest:
     - name: https://github.com/Unity-Technologies/katana.git
     - target: /home/vagrant/shared-files/katana
+    - rev: staging
+    - user: vagrant
 
 Installing www:
   pip.installed:
@@ -48,4 +50,4 @@ Creating builduser:
 
 Create build slaves:
   cmd.run:
-    - name: . /home/vagrant/pypysandbox/bin/activate; cd /home/vagrant/shared-files; buildslave create-slave  build-slave-01 localhost:9001 build-slave-01 builduser; buildslave create-slave  build-slave-02 localhost:9001 build-slave-02 builduser
+    - name: . /home/vagrant/pypysandbox/bin/activate; cd /home/vagrant/shared-files; buildslave create-slave  build-slave-01 localhost:9901 build-slave-01 builduser; buildslave create-slave  build-slave-02 localhost:9901 build-slave-02 builduser

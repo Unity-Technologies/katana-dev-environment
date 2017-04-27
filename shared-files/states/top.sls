@@ -11,4 +11,4 @@ base:
     - start-autobahn
     - start-artifactserver
     - disable-restarts
-
+    - set-slave-ip

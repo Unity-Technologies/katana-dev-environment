@@ -16,7 +16,7 @@ Set up virtual environment:
       - pypy-dev
 
   virtualenv.managed:
-    - name: pypysandbox
+    - name: /home/vagrant/pypysandbox
     - python: /usr/bin/pypy
     - user: vagrant
 

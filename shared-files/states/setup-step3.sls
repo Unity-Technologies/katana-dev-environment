@@ -8,6 +8,10 @@ Install MySQL and others:
       - libsasl2-dev #2.1.25.dfsg1-17build1
       - libldap2-dev #2.4.31-1+nmu2ubuntu8.2
       - libssl-dev #1.0.1f-1ubuntu2.19
+    
+Set package permissions:
+  cmd.run:
+    - name: chown -R vagrant:vagrant /home/vagrant/pypysandbox
 
 Setting up mysql database:
   service.running:

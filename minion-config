@@ -3,3 +3,7 @@ file_client: local
 file_roots:
   base:
     - /home/vagrant/shared-files/states
+
+pillar_roots:
+  base:
+    - /home/vagrant/shared-files/pillar
